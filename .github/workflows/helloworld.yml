@@ -1,14 +1,13 @@
-name: Hello World - InfoSec Relations - Offensive Engineering
+name: Workshop CyberLab
 
 on: workflow_dispatch
 
 jobs:
   hello-world:
     runs-on: ubuntu-latest
-    name: Hello World!
+    name: Job
     steps:
       - run: id
       - run: uname -a
       - run: env
-      - run: echo "Hello InfoSec Relations - Offensive Engineering!"
-
+      - run: echo "Hello FEBRABAN CyberLab!"
